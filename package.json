@@ -2,9 +2,10 @@
   "name": "expressjs.node",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon node server",
-    "dev": "node --watch server"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
